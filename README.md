@@ -12,7 +12,6 @@ Controller: Arduino Nano Every
     - info: Serial com port used to communicate with the unit
 
 - FUNCTIONS:
-        - Sets the attenuation on a given port
     - **set_atten(addr, value) --> (tuple)**
         - *Sets the attenuation of an RF port*
         - addr
