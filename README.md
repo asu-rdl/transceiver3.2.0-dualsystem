@@ -44,8 +44,8 @@ Controller: Arduino Nano Every
 ```python
 import transceiver
 slice = transceiver.Transceiver("/dev/ttyACM0")
-slice.set_atten(1, 0.0) # set System 1 RFIN to dB of attenuation)
-slice.set_atten(2, 15.75) # set System 1 RFOUT to 15.75 dB of attenuation
+slice.set_atten(1, 0.0) # set System 1 RFOUT to dB of attenuation)
+slice.set_atten(2, 15.75) # set System 1 RFIN to 15.75 dB of attenuation
 s, _ = slice.set_atten(3, 0.0)
 if s:
     print("IT WORKED!")
