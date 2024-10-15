@@ -17,10 +17,10 @@ Controller: Arduino Nano Every
         - addr
             - type: int
             - info: Attenuator address. Exceeding these values will raise an exception
-                - addr 1:  System 1 RFIN
-                - addr 2: System 1 RFOUT
-                - addr 3: System 2 RFIN
-                - addr 4 System 2 RFOUT 
+                - addr 1:  System 1 RFOUT
+                - addr 2: System 1 RFIN
+                - addr 3: System 2 RFOUT
+                - addr 4: System 2 RFIN
         - value
             - type: float
             - info: How much attenuation to add from 0 dB to 31.75 dB. 
